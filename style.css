@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: 0;
 }
+body{
+    background: #000;
+}
 
 /* navbar section start */
 nav{
@@ -220,4 +223,32 @@ nav>ul li a{
 .feature{
     background: black;
     padding: 50px 0;
+}
+/* portfolio section */
+.portfolio{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.portfolio-details{
+    text-align: center;
+}
+.portfolio-details>h1{
+    font-weight: 800;
+    font-size: 32;
+    margin-bottom: 10px;
+    color: white;
+}
+.portfolio-details>p{
+    margin-bottom: 15px;
+    color: gray;
+    font-size: 18px;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.prot-img{
+    width: 350px;
 }
