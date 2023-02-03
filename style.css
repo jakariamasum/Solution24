@@ -129,4 +129,33 @@ nav>ul li a{
     width: 550px;
     color: gray;
 }
-
+.professional{
+    background: #000;
+    padding: 100px 0;
+    color: white;
+}
+.prof-details{
+    max-width: 1250px;
+    margin: 0 auto;
+    margin: 0 100px;
+}
+.skill{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    padding-left: 100px;
+    margin: 20px 0;
+}
+.skill p, .prof-details>p{
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+}
+.prof-img{
+    width: 500px;
+}
+.parent-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
