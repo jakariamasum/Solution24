@@ -98,3 +98,35 @@ nav>ul li a{
 .icon{
     color: #5758e0;
 }
+/* about us section */
+.about{
+    background: #000;
+    padding: 100px 0;
+}
+.container img{
+    width: 500px;
+}
+.container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1250px;
+    margin: 0 auto;
+    color: white;
+}
+.border{
+    background: linear-gradient(to left, #55b4d4, #5758e0);
+    width: 55px;
+    height: 5px;
+}
+.about-details>h1{
+    font-size: 28px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.about-details>p{
+    width: 550px;
+    color: gray;
+}
+
