@@ -252,3 +252,26 @@ nav>ul li a{
 .prot-img{
     width: 350px;
 }
+/* vedio section */
+.vedio{
+    height: 100vh;
+    color: white;
+    background: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vedio-details{
+    text-align: center;
+}
+.vedio-details>h1{
+    font-weight: 900;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+.vedio-details>p{
+    font-weight: 400; 
+    font-size: 18px;
+    margin-bottom: 22px;
+    color: #999999;
+}
