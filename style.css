@@ -307,11 +307,98 @@ nav>ul li a{
 }
 .review>p{
     color: gray;
-    margin-top: 12px;
+    margin: 12px 0;
 }
 .user{
     width: 100px;
     height: 100px;
     border-radius: 50%;
     margin-bottom: 12px;
+}
+/* talk section  */
+.talk-img{
+    width: 700px;
+}
+.talk-container{
+    gap: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.talk-details>h1{
+    font-weight: 900;
+    font-size: 46px;
+    margin-bottom: 15px;
+   
+}
+.talk{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #040402;
+    color: white;
+}
+.form{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+input{
+    padding: 12px;
+    margin-bottom: 10px;
+}
+.form-btn{
+    background: #5758e0;
+    margin-top: 15px;
+}
+.contact{
+    height: 100vh;
+    display: flex;
+    background: #111111;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact-info{
+    text-align: center;
+    background: #191919;
+    padding: 3rem;
+    color: white;
+    width: 350px;
+}
+.contact-contain{
+    display: flex;
+    gap: 25px;
+    padding: 15px;
+}
+.contact-info>h1{
+    font-weight: 900;
+    font-size: 42px;
+    margin: 15px 0;
+}
+.contact-info>p{
+    color: gray;
+    margin-bottom: 15px;
+}
+footer{
+    background: #000;
+    
+    padding: 10vh 0;
+}
+.footer-details{
+    color: white;
+    margin: 0 55px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+.footer-details>p{
+    font-size: 35px;
+    font-weight: 700;
+}
+footer span{
+    color: #5758e0;
 }
