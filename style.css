@@ -224,7 +224,7 @@ nav>ul li a{
 }
 /* portfolio section */
 .portfolio{
-    max-width: 1250px;
+    /* max-width: 1250px; */
     margin: 0 auto;
     padding: 100px 0;
     background: #111111;
