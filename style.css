@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: 0;
 }
-body{
-    background: #000;
-}
+
 
 /* navbar section start */
 nav{
@@ -103,7 +101,7 @@ nav>ul li a{
 }
 /* about us section */
 .about{
-    background: #000;
+    background: #191919;
     padding: 100px 0;
 }
 .container img{
@@ -133,7 +131,7 @@ nav>ul li a{
     color: gray;
 }
 .professional{
-    background: #000;
+    background: #111111;
     padding: 100px 0;
     color: white;
 }
@@ -229,6 +227,7 @@ nav>ul li a{
     max-width: 1250px;
     margin: 0 auto;
     padding: 100px 0;
+    background: #111111;
 }
 .portfolio-details{
     text-align: center;
@@ -274,4 +273,45 @@ nav>ul li a{
     font-size: 18px;
     margin-bottom: 22px;
     color: #999999;
+}
+/* customer section start */
+.customer{
+    padding: 120px 0;
+    background-color: #000000;
+}
+.cutomer-heading{
+    text-align: center;
+    color: white;
+    
+}
+.cutomer-heading>h1{
+    font-weight: 900;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+.cutomer-heading>p{
+    color: #999999;
+    margin-bottom: 25px;
+}
+.reviews{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    margin: 0 50px;
+}
+.review{
+    padding: 3rem;
+    background: #191919;
+    text-align: center;
+}
+.review>p{
+    color: gray;
+    margin-top: 12px;
+}
+.user{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 12px;
 }
